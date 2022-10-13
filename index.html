@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameShopBd</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8f037f1f1d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h2>Gameshop<sup>BD</sup> </h2>
+        </div>
+        <div class="icon">
+            <i class="fas fa-user-circle"></i>
+        </div>
+    </nav>
+    <marquee behavior="" direction="">বিঃদ্রঃ ১৮ বছরের নিচে কেউ অর্ডার করতে অবশ্যই বাবা-মায়ের অনুমতি লাগবে । অভিভাবকের অনুমতি ছাড়া অর্ডার করা সম্পুর্নভাবে নিষিদ্ধ । আমাদের থেকে ডায়মন্ড কিনতে প্রথমে আপনার পছন্দের প্যাকেজটি নির্বাচন করুন তারপর আমাদের দেওয়া নিচের স্টেপ গুলো অনুসরন করুন ধন্যবাদ । </marquee>
+    <!-- navigation code end here -->
+    <main>
+        <section class="first-section">
+            <div class="parent-img">
+                <img src="img/free.jpg" alt="">
+                <div class="title">
+                    <h2>নিচের এই প্যাকেজ গুলো শুধু বাংলাদেশ সার্ভারে কিনা যাবে ।
+                        
+                    </h2>
+                </div>
+            </div>
+        </section>
+       
+        <section id="diomond">
+       <h3 class="free-title">free fire diamond bD</h3>
+              <div  class="parent-div">
+                <div id="div1" onclick="back()"  class="single-card">
+                    <h4 id="level" onclick="money('taka','price','level','diomond')">level up pass <sup id="taka" >170৳</sup> </h4>
+                </div>
+                <div id="div1" onclick="back()"  class="single-card">
+                    <h4 onclick="money('taka1','price')">weekly membership <sup id="taka1">170৳</sup> </h4>
+                </div>
+                <div   class="single-card">
+                    <h4 onclick="money('taka2','price')">monthly membership <sup id="taka2">850৳</sup> </h4>
+                </div>
+                <div  class="single-card">
+                    <h4 onclick="money('taka3','price')">115 diamond <sup id="taka3">85৳</sup> </h4>
+                </div>
+                <div  class="single-card">
+                    <h4 onclick="money('taka4','price')">240 diamond <sup id="taka4">170৳</sup> </h4>
+                </div>
+                <div  class="single-card">
+                    <h4 onclick="money('taka5','price')">355 diamond <sup id="taka5">255৳</sup> </h4>
+                </div>
+                <div  class="single-card">
+                    <h4 onclick="money('taka6','price')">480 diamond <sup id="taka6">340৳</sup> </h4>
+                </div>
+                <div  class="single-card">
+                    <h4 onclick="money('taka7','price')">610 diamond <sup id="taka7">425৳</sup> </h4>
+                </div>
+                <div  class="single-card">
+                    <h4 onclick="money('taka8','price')">725 diamond <sup id="taka8">510৳</sup> </h4>
+                </div>
+                <div  class="single-card">
+                    <h4 onclick="money('taka9','price')">1240 diamond  <sup id="taka9">850৳</sup> </h4>
+                </div>
+                <div  class="single-card">
+                    <h4 onclick="money('taka10','price')">2530 diamond <sup id="taka10">1,700৳</sup> </h4>
+                </div>
+                <div  class="single-card">
+                    <h4 onclick="money('taka11','price')">5060 diamond <sup id="taka11">3,400৳</sup> </h4>
+                </div>
+                <div  class="single-card">
+                    <h4 onclick="money('taka12','price')">7590 diamond <sup id="taka12">5,100৳</sup> </h4>
+                </div>
+                <div  class="single-card">
+                    <h4 onclick="money('taka13','price')">10120 diamond <sup id="taka13">6,800৳</sup> </h4>
+                </div>
+
+              </div>
+              <p class="player-id">diomond price: <span id="price">00</span> </p>
+              <!-- <p class="total-diomond">total diomond: <span id="diomond">00</span> </p> -->
+              <input class="input" type="text" placeholder=" আপনার ডায়মন্ড প্যাকেজটি বসান" ><br>
+              <input class="input" type="text" placeholder="এখানে আপনার গেইম UID বসান"><br>
+              <input class="submit" type="submit" value="submit"></input>
+        </section>
+        <section id="third-section">
+            <div class="payment-parent">
+                  <h2 class="pay-title">payment method</h2>
+                  
+                  <div>
+                    <input  id="bkash"  type="radio" name="gender">bkash 
+                    <input id="nagad" name="gender" type="radio"> nagad 
+                    <input id="rocket" name="gender" type="radio"> rocket 
+                  </div>
+                  <div id="meyhod1" class="pay-method">
+                    <p id="banking">bkash: 017xxxxxxxxx</p>
+                    <p>সেন্ড মানি করুন উপরের নাম্বারে</p>
+                    <input class="input-div" type="text" placeholder="Enter Your bkash/nagad/rocket number">
+                    <input class="input-div" type="text" placeholder="enter your name">
+                    <input class="input-div" type="text" placeholder="enter your game uid">
+                    <p id="check">আপনার সকল তথ্য ঠিক আছে কিনা পুনরায় চেক করুন তারপর সেন্ড বাটনে ক্লিক করুন ।</p>
+                    </div>
+                    
+                  <input id="send" class="send-btn" type="submit" value="send">
+            </div>
+            <div class="contact-parent">
+                <h1>যোগাযোগ করুন !</h1>
+                <p>আপনাদের যে কোনো সমস্যা আমাদের কে জানান আমরা আপনাকে সহযোগিতা করতে সাহায্যে করবো ইনশাআল্লাহ । আমাদের সাথে যোগাযোগ  করতে নিচের দেওয়া আইকনে ক্লিক করুন ।</p>
+                <div class="icon-social">
+                   <a href="#"> <i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-messenger"></i></a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <script src="custom.js"></script>
+</body>
+</html>
